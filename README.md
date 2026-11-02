@@ -45,6 +45,8 @@
 sudo apt update
 sudo apt install nmap python3-pyqt5          # usually already on Kali
 
+git clone https://github.com/codecanurag15/nmap-gui.git      # git clone tool repository 
+
 cd nmap-gui
 chmod +x run.sh
 ./run.sh                                      # starts the GUI as root
